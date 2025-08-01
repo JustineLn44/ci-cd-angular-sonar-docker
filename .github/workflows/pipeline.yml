@@ -90,6 +90,6 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/cesi-angular-nassim:v2
+          tags: ${{ secrets.DOCKER_USERNAME }}/mercure-angular:v2
 
       
